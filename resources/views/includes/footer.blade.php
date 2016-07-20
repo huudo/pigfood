@@ -33,3 +33,10 @@
 		</div>
 	</div>
 </footer>
+<script type="text/javascript" src={{Asset('public/js/cs.ajax-cart.js')}}></script>
+<script type="text/javascript" src={{Asset('public/js/option-selectors.js')}}></script>
+<script type="text/javascript" src={{Asset('public/js/api.jquery.js')}}></script>
+<script type="text/javascript" src={{Asset('public/js/jcarousel.min.js')}}></script>
+<script type="text/javascript" src={{Asset('public/js/bootstrap.min.js')}}></script>
+<script type="text/javascript" src={{Asset('public/js/owl.carousel.min.js')}}></script>
+<script type="text/javascript" src={{Asset('public/js/main-script.js')}}></script>

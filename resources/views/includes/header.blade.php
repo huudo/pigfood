@@ -1,149 +1,210 @@
-<header>
-	<div id="banner">
-		<div class="container-fluid">
-			<div class="row">
-				<a href="{{URL::to('/')}}">
-				<div class="col-md-4" id="logo">
+<section class="top-bar">
+        <div class="container pr">
+            <div class="row">
+            
+                <div class="col-md-6 col-sm-6 hidden-xs tb-left pull-left">
+                    <p>
+                        <span><i class="fa fa-phone"></i>0913.009.985</span>
+                        <span><i class="fa fa-envelope"></i><a href="mailto:dogodep99@gmail.com">dogodep99@gmail.com</a></span>
+                    </p>
+                </div>
+            
+            
+                <div class="col-md-6 col-sm-6 col-xs-12 tb-right pull-right">
+                    <ul class="list-unstyled">
+                    
+                        <li><a href="/account/login"><i class="fa fa-lock"></i> Đăng nhập</a>
+                        </li>
+                        <li>/</li>
+                        <li><a href="/account/register">Đăng ký</a>
+                        </li>
+                        
+                        <li class="tb-cart"><a href="/cart"><i class="fa fa-shopping-cart"></i><span id="cart-info" class="cart-count">0</span></a>
+                        </li>
+                    </ul>
+                </div>
+            
+            </div>
+            <div class="menu-nav container-fluid">
+            <nav class="navbar hidden-md hidden-lg">
+            <div class="logo">
+                <a class="navbar-brand" href="/">
+                            
+                        <img alt="noithatthoinay" title="" src="//bizweb.dktcdn.net/100/022/286/themes/28873/assets/logo.png?1457574486889">
+                    
+                </a>
+            </div>
+            
+            <div class="collapse navbar-collapse mobile-menu" id="bs-example-navbar-collapse-5">
+                <div class="pull-right visible-xs visible-sm">
+                    <div class="search-form pull-left">
+                        <a href="javascript:void(0);" id="search-btn"><img src="//bizweb.dktcdn.net/100/022/286/themes/28873/assets/search-icon.png?1457574486889" alt="">
+                        </a>
+                        <div id="hidden-search" style="display: none">
+                            <form action="/search" class="search-form">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" name="query" placeholder="Tìm kiếm..." value="">
+                                    <span class="input-group-btn">
+                                        <button class="btn btn-default" type="submit"><i class="fa fa-search"></i></button>
+                                    </span>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <a class="pull-right bars-navigation visible-xs visible-sm" href="javascript:void(0);"><img src="//bizweb.dktcdn.net/100/022/286/themes/28873/assets/menu-mobile.png?1457574486889" alt=""></a>
+                
+                <ul style="display:none;" class="submenu list-unstyled clearb">
+                    <li>
+                        <ul class="topnav list-unstyled">
+                            
+                            
+                            <li class="level0 level-top"> <a class="level-top" href="/"> <span>Trang chủ</span> </a> </li>
+                            
+                            
+                            
+                            <li class="level0 level-top"> <a class="level-top" href="/collections/all"> <span>Sản phẩm</span> </a> </li>
+                            
+                            
+                            
+                            <li class="level0 level-top"> <a class="level-top" href="/tin-tuc"> <span>Blog</span> </a> </li>
+                            
+                            
+                            
+                            <li class="level0 level-top"> <a class="level-top" href="/gioi-thieu"> <span>Giới thiệu</span> </a> </li>
+                            
+                            
+                            
+                            <li class="level0 level-top"> <a class="level-top" href="/ban-do"> <span>Bản đồ</span> </a> </li>
+                            
+                            
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            </nav>
 
-				</div>
-				</a>
-				<div class="hidden-xs col-md-5">
-					<h2 class="top_title">100% NATIVE ENGLISH TEACHERS</h2>
-				</div>
-				<div class="hidden-xs col-md-3" align="right">
-					<div id="hot_line">
-						<p><i class="fa fa-phone"></i>0988331890</p>
-					</div>
-					<div id="icon_link">
-						<a target="_blank"  href="https://www.facebook.com/ESP-English-1698612423715540/?ref=br_rs"><i class="fa fa-facebook-official"></i></a>
-						<a target="_blank" href=""><i class="fa fa-twitter-square"></i></a>
-						<a target="_blank" href=""><i class="fa fa-google-plus-square"></i></a>
-						<a target="_blank" href=""><i class="fa fa-instagram"></i></a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div id="wrapper">
-		<div id="menu">
-			<div id="sub_menu">
-				<nav class="navbar navbar-default" align="left">
-	  				<div class="container-fluid">
-	    <!-- Brand and toggle get grouped for better mobile display -->
-				    <div class="navbar-header">
-				    	<div class="row">
-				    		<div class="col-md-3 hidden-sm hidden-md hidden-lg">
-				    			<p id="slogan_small"> BEYOND YOUR LIMITS!</p>
-				    		</div>
-				    		<div class='col-md-9'>
-				    			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-								    <span class="sr-only">Toggle navigation</span>
-								    <span class="icon-bar"></span>
-								    <span class="icon-bar"></span>
-								    <span class="icon-bar"></span>
-								</button>
-				    		</div>
-				    	</div>		
-						
-			    	</div>
-			    <!-- Collect the nav links, forms, and other content for toggling -->
-					    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-							<ul class="nav navbar-nav navbar-left ">
-							<li><a href="{{URL::to('/')}}"><i class="fa fa-home"></i>Trang chủ <span class="sr-only">(current)</span></a></li>
-							<li><a href="{{URL::to('/')}}"><i class="fa fa-home"></i>Giới thiệu <span class="sr-only">(current)</span></a></li>
+            <nav class="navbar hidden-sm hidden-xs">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="/">
+                                
+                            <img alt="noithatthoinay" src="//bizweb.dktcdn.net/100/022/286/themes/28873/assets/logo.png?1457574486889">
+                        
+                    </a>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-5">
+                    
+                    
+                    
+                    <ul class="site-nav navbar-right">
+                        
+                        
+                        <li><a href="/" class=" current"><span>Trang chủ</span></a></li>
+                        
+                        
+                        
+                        <li><a href="/collections/all" class=""><span>Sản phẩm</span></a></li>
+                        
+                        
+                        
+                        <li><a href="/tin-tuc" class=""><span>Blog</span></a></li>
+                        
+                        
+                        
+                        <li><a href="/gioi-thieu" class=""><span>Giới thiệu</span></a></li>
+                        
+                        
+                        
+                        <li><a href="/ban-do" class=""><span>Bản đồ</span></a></li>
+                        
+                        
+                        <li class="navbar-right">
+                            <div class="search-form">
+                                <a href="javascript:void(0);" id="search-btn"><img src="//bizweb.dktcdn.net/100/022/286/themes/28873/assets/search-icon.png?1457574486889">
+                                </a>
+                                <div id="hidden-search" style="display: none">
+                                    <form action="/search" class="search-form">
+                                        <div class="input-group">
+                                            <input type="text" class="form-control" name="query" placeholder="Tìm kiếm..." value="">
+                                            <span class="input-group-btn">
+                                                <button class="btn btn-default" type="submit"><i class="fa fa-search"></i></button>
+                                            </span>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </li>           
+                    </ul>
+                </div>
+            </nav>  
+        </div>
+    </div>      
+</section>
 
-							<li class="dropdown">
-							  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-							  		<i class="fa fa-graduation-cap"></i> Sản phẩm<span class="caret"></span></a>
-							  <ul class="dropdown-menu">
-							    <li><a href="{{URL::to('/introduce')}}">Sản phẩm 1</a></li>
-							    <li role="separator" class="divider"></li>
-							     <li><a href="{{URL::to('/introduce')}}">Sản phẩm 1</a></li>
-							    <li role="separator" class="divider"></li>
-							     <li><a href="{{URL::to('/introduce')}}">Sản phẩm 1</a></li>
-							    <li role="separator" class="divider"></li>        
-							  </ul>
-							</li>
-							<li><a href="{{URL::to('news')}}"><i class="fa fa-bullhorn"></i> Tin tức & Sự kiện</a></li>
-							<li><a href="{{URL::to('news')}}"><i class="fa fa-bullhorn"></i> Kiến thức chăn nuôi</a></li>
-							<li><a href="{{URL::to('/contact')}}"><i class="fa fa-map-marker"></i>Liên hệ</a></li>
-							</ul>
-					     
-					    </div><!-- /.navbar-collapse -->
-			 	 	</div><!-- /.container-fluid -->
-				</nav>
-			</div>
-				
-		</div>
-		<div id="language" align="right">
-			<div id="vietnam">
-			<a href="{{ URL::to('/vn') }}">
-				<img src="{{Asset('public/images/vietnam.png')}}">
-			</a>
-			</div>
-			<div id="english">
-			<a href="{{ URL::to('/eng') }}">
-				<img src="{{Asset('public/images/english.png')}}">
-			</a>
-				
-			</div>
-		</div>
-			
-	</div>
+<section class="header clearb">
+    <div clas="header-slide">
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                
+                
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <a href="#"><img src="//bizweb.dktcdn.net/100/022/286/themes/28873/assets/slide1.jpg?1457574486889" alt="noithatthoinay" style="width: 100%;"></a>
+                </div>
+                
+                <div class="item">
+                    <a href="#"><img src="//bizweb.dktcdn.net/100/022/286/themes/28873/assets/slide2.jpg?1457574486889" alt="noithatthoinay" style="width: 100%;"></a>
+                </div>
+                
+                
+                <div class="item">
+                    <a href="#"><img src="//bizweb.dktcdn.net/100/022/286/themes/28873/assets/slide3.jpg?1457574486889" alt="noithatthoinay" style="width: 100%;"></a>
+                </div>
+                
+                 
+                
+            </div>
+            <div class="container">
+                <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                    <span aria-hidden="true"><img src="//bizweb.dktcdn.net/100/022/286/themes/28873/assets/arrow-left.png?1457574486889" alt=""></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                    <span aria-hidden="true"><img src="//bizweb.dktcdn.net/100/022/286/themes/28873/assets/arrow-right.png?1457574486889" alt=""></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
 
-</header>	    	
-<style type="text/css">
-.dropdown-submenu {
-position: relative;
-}
+<section class="banner">
+    <div class="container">
+        <div class=" inner-banner clearfix">
+            <div class="col-md-6 col-sm-9 col-xs-12 ">
+                <img src="//bizweb.dktcdn.net/100/022/286/themes/28873/assets/ban1.jpg?1457574486889" class="img-responsive">
+                <a href="noi-that-phong-khach">Xem thêm</a>
+            </div>
+            <div class="col-md-2 col-sm-3 hidden-xs">
+                <img src="//bizweb.dktcdn.net/100/022/286/themes/28873/assets/ban2.jpg?1457574486889" class="img-responsive">
+                <a href="noi-that-phong-lam-viec">Xem thêm</a>
+            </div>
+            <div class="col-md-2 hidden-sm hidden-xs ">
+                <img src="//bizweb.dktcdn.net/100/022/286/themes/28873/assets/ban3.jpg?1457574486889" class="img-responsive">
+                <a href="noi-that-phong-ngu">Xem thêm</a>
+            </div>
+            <div class="col-md-2 hidden-sm hidden-xs">
+                <img src="//bizweb.dktcdn.net/100/022/286/themes/28873/assets/ban4.jpg?1457574486889" class="img-responsive">
+                <a href="noi-that-nha-bep">Xem thêm</a>
+            </div>
+        </div>
+    </div>
+</section>
 
-.dropdown-submenu>.dropdown-menu {
-top: 0;
-left: 100%;
-margin-top: -6px;
-margin-left: -1px;
--webkit-border-radius: 0 6px 6px 6px;
--moz-border-radius: 0 6px 6px;
-border-radius: 0 6px 6px 6px;
-}
-
-.dropdown-submenu:hover>.dropdown-menu {
-display: block;
-}
-
-.dropdown-submenu>a:after {
-display: block;
-content: " ";
-float: right;
-width: 0;
-height: 0;
-border-color: transparent;
-border-style: solid;
-border-width: 5px 0 5px 5px;
-border-left-color: #ccc;
-margin-top: 5px;
-margin-right: -10px;
-}
-
-.dropdown-submenu:hover>a:after {
-border-left-color: #fff;
-}
-
-.dropdown-submenu.pull-left {
-float: none;
-}
-
-.dropdown-submenu.pull-left>.dropdown-menu {
-left: -100%;
-margin-left: 10px;
--webkit-border-radius: 6px 0 6px 6px;
--moz-border-radius: 6px 0 6px 6px;
-border-radius: 6px 0 6px 6px;
-}
-</style>
-
-
-		
 
 
 
