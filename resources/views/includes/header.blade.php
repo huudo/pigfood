@@ -182,29 +182,6 @@
     </div>
 </section>
 
-<section class="banner">
-    <div class="container">
-        <div class=" inner-banner clearfix">
-            <div class="col-md-6 col-sm-9 col-xs-12 ">
-                <img src="//bizweb.dktcdn.net/100/022/286/themes/28873/assets/ban1.jpg?1457574486889" class="img-responsive">
-                <a href="noi-that-phong-khach">Xem thêm</a>
-            </div>
-            <div class="col-md-2 col-sm-3 hidden-xs">
-                <img src="//bizweb.dktcdn.net/100/022/286/themes/28873/assets/ban2.jpg?1457574486889" class="img-responsive">
-                <a href="noi-that-phong-lam-viec">Xem thêm</a>
-            </div>
-            <div class="col-md-2 hidden-sm hidden-xs ">
-                <img src="//bizweb.dktcdn.net/100/022/286/themes/28873/assets/ban3.jpg?1457574486889" class="img-responsive">
-                <a href="noi-that-phong-ngu">Xem thêm</a>
-            </div>
-            <div class="col-md-2 hidden-sm hidden-xs">
-                <img src="//bizweb.dktcdn.net/100/022/286/themes/28873/assets/ban4.jpg?1457574486889" class="img-responsive">
-                <a href="noi-that-nha-bep">Xem thêm</a>
-            </div>
-        </div>
-    </div>
-</section>
-
 
 
 
