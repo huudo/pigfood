@@ -5,9 +5,7 @@
 	<meta name="google-site-verification" content="9211v6IrzwDO4vs4jLFn2sUg_44PugO_hMMIfQeur00" />
     <meta charset="UTF-8">
     <title>
-        noithatthoinay
-        
-        
+     Vi-Home        
     </title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
      
@@ -19,24 +17,13 @@
 <link rel="stylesheet" type="text/css" href={{Asset('public/css/bootstrap.min.css')}}>
 <link rel="stylesheet" type="text/css" href={{Asset('public/css/bootstrap-theme.min.css')}}>
 <link href='//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css' rel='stylesheet' type='text/css' />
-<link rel="stylesheet" type="text/css" href={{Asset('public/css/normalize.css')}}>
-<link rel="stylesheet" type="text/css" href={{Asset('public/css/jcarousel.css')}}>
-<link rel="stylesheet" type="text/css" href={{Asset('public/css/owl.carousel.css')}}>
-<link rel="stylesheet" type="text/css" href={{Asset('public/css/owl.transitions.css')}}>
-<link rel="stylesheet" type="text/css" href={{Asset('public/css/jgrowl.css')}}>
+
 <link rel="stylesheet" type="text/css" href={{Asset('public/css/style.css')}}>
-<link rel="stylesheet" type="text/css" href={{Asset('public/css/res-style.css')}}>
-<link href='//fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css' />
-
-<script type="text/javascript" src={{Asset('public/js/cycle.js')}}></script>
-<script type="text/javascript" src={{Asset('public/js/cycle.js')}}></script>
-<script type="text/javascript" src={{Asset('public/js/mousewheel.js')}}></script>
-
 <script type="text/javascript" src={{Asset('public/js/jquery213.js')}}></script>
-<script type="text/javascript" src={{Asset('public/js/jgrowl.js')}}></script>
-             
-<noscript><iframe height='0' width='0' style='display:none;visibility:hidden' src='/visit/record.gif?p=%2f&r=&s=dgviajbsmtneeehn12sp30q3'></iframe></noscript>
-
+<script type="text/javascript" src={{Asset('public/js/jquery.hoverdir.js')}}></script>
+<script type="text/javascript" src={{Asset('public/js/modernizr.custom.97074.js')}}></script>
+<script type="text/javascript" src={{Asset('public/js/api.jquery.js')}}></script>
+<script type="text/javascript" src={{Asset('public/js/bootstrap.min.js')}}></script>
 </head>
 <body>
 	<script>
